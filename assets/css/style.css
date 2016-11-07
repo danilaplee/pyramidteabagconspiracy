@@ -1,0 +1,93 @@
+body
+{
+	background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.album-title,
+.album-info
+{
+	position: absolute;
+    width: 80%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 80px;
+    top: 20px;
+    text-align: center;
+    color: #000;
+    z-index: 1000;
+    max-width: 420px;
+}
+.album-info
+{
+    top:inherit;
+    bottom: -50%;
+}
+.album-info h2 a
+{
+    color: transparent;
+    font-size:0.8em;
+    text-decoration: none;
+}
+h2
+{
+    font-family: "Righteous";
+    font-weight: 300;
+    mix-blend-mode: screen;
+    opacity: 0.9;
+    font-size: 32px;   
+/*    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;*/
+    mix-blend-mode: hard-light;
+    color: transparent;
+     -webkit-transition: color .3s linear;
+     -moz-transition: color .3s linear;
+     -o-transition: color .3s linear;
+     transition: color .3s linear;
+
+}
+.center-play
+{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+#eye-icon
+{
+	width: 60%;
+    height: 60%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+@media (max-width: 500px) {
+	.center-play
+	{
+		top:30px;
+	}
+	h2
+	{
+	    margin-top: 5px;
+	}
+	.album-title
+	{
+		top:0px;
+		p
+	}
+}
