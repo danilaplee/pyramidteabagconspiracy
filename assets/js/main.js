@@ -27,6 +27,7 @@ var Diamond = {
 		this.title = document.getElementById('main-title')
 		this.buy = document.getElementById('buy')
 		this.dld = document.getElementById('dld')
+		this.follow = document.getElementById('follow')
 		this.icon = document.getElementById('eye-icon')
 		this.renderer = new THREE.WebGLRenderer({ antialias: true });
 		this.renderer.setSize(width, height);
@@ -194,6 +195,7 @@ var Diamond = {
 					this.title.style.color = "#fff"
 					this.dld.style.color = "#fff"
 					this.buy.style.color = "#fff"
+					this.follow.style.color = "#fff"
 					self.icon.setAttribute('fill', "#fff") 
 					this.mesh.material.wireframeLinewidth = 2;
 					this.first_run = false;
