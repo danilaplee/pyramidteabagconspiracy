@@ -85,6 +85,10 @@ h2
 	{
 	    margin-top: 5px;
 	}
+	.album-info h2
+	{
+		margin-top:0px;
+	}
 	.album-title
 	{
 		top:0px;
