@@ -77,6 +77,12 @@ h2
 }
 
 @media (max-width: 500px) {
+	
+	#eye-icon
+	{
+		width:80%;
+	    	height:80%;
+	}
 	.center-play
 	{
 		top:30px;
